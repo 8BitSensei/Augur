@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "LiteDbTest": {
+      "commandName": "Project",
+      "commandLineArgs": "export"
+    },
+    "Augur": {
+      "commandName": "Project"
+    }
+  }
+}

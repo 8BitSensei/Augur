@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\charlie.tizzard\\source\\repos\\Augur\\Augur\\Augur.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\charlie.tizzard\\source\\repos\\Augur\\Augur\\Augur.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\charlie.tizzard\\source\\repos\\Augur\\Augur\\Augur.csproj",
+        "projectName": "Augur",
+        "projectPath": "C:\\Users\\charlie.tizzard\\source\\repos\\Augur\\Augur\\Augur.csproj",
+        "packagesPath": "C:\\Users\\charlie.tizzard\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\charlie.tizzard\\source\\repos\\Augur\\Augur\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\charlie.tizzard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://f.feedz.io/polystream/platform/nuget/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.23, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.CommandLineUtils": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "gexf-dotnet": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
